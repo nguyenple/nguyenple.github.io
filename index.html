@@ -53,14 +53,21 @@
             width: 100%;
     	}
 
-    footer a:visited {
-        color: #89CFF0; /* Light blue color for visited links */
-    }
-        @media screen and (max-width: 600px) {
-            body {
-                padding-bottom: 80px;
-            }
+ 	footer a {
+            color: #ADD8E6; /* Light blue color for unclicked links */
+            text-decoration: none;
         }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer a:visited {
+            color: #89CFF0; /* Different light blue color for visited links */
+        }
+
+     }
+}
 
     </style>
 </head>
